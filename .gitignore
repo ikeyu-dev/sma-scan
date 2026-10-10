@@ -1,0 +1,37 @@
+# 依存関係
+node_modules/
+# フロントエンドは独立したGitリポジトリ
+frontend/
+.venv/
+__pycache__/
+*.pyc
+
+# ビルド成果物
+.next/
+out/
+dist/
+
+# 証明書（セキュリティのため除外）
+certs/
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ログ
+*.log
+npm-debug.log*
+
+# その他
+*.tsbuildinfo
