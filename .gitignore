@@ -1,7 +1,5 @@
 # 依存関係
 node_modules/
-# フロントエンドは独立したGitリポジトリ
-frontend/
 .venv/
 __pycache__/
 *.pyc
