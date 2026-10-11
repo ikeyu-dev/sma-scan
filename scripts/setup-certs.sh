@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# スマスキャン - HTTPS証明書セットアップスクリプト
+# Sma-Scan - HTTPS証明書セットアップスクリプト
 # mkcertを使用してローカル開発用の証明書を生成する
 
 set -e
@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 CERTS_DIR="$PROJECT_DIR/certs"
 
-echo "=== スマスキャン 証明書セットアップ ==="
+echo "=== Sma-Scan 証明書セットアップ ==="
 echo ""
 
 # mkcertがインストールされているか確認

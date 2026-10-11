@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# スマスキャン - Docker起動スクリプト
+# Sma-Scan - Docker起動スクリプト
 
 set -e
 
@@ -8,7 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 CERTS_DIR="$PROJECT_DIR/certs"
 
-echo "=== スマスキャン Docker起動 ==="
+echo "=== Sma-Scan Docker起動 ==="
 echo ""
 
 # 証明書の存在確認

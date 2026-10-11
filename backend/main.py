@@ -1,4 +1,4 @@
-"""スマスキャン バックエンドAPI。"""
+"""Sma-Scan バックエンドAPI。"""
 
 import asyncio
 import json
@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, validator
 
-app = FastAPI(title="スマスキャン API", version="1.0.0")
+app = FastAPI(title="Sma-Scan API", version="1.0.0")
 
 HOST_IP = os.environ.get("HOST_IP", "localhost")
 SCAN_TOKEN = os.environ.get("SCAN_TOKEN", "")

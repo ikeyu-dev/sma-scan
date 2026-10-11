@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "スマスキャン",
+    title: "Sma-Scan",
     description: "QRコードを読み取ってPCでリンクを開く",
 };
 

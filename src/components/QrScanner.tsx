@@ -146,7 +146,7 @@ export default function QrScanner({ apiEndpoint }: QrScannerProps) {
 
     return (
         <div className="flex w-full max-w-md flex-col items-center gap-4 p-4">
-            <h1 className="text-2xl font-bold">スマスキャン</h1>
+            <h1 className="text-2xl font-bold">Sma-Scan</h1>
 
             {errorMessage && (
                 <div

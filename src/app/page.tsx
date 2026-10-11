@@ -12,7 +12,7 @@ const QrScanner = dynamic(() => import("@/components/QrScanner"), {
 });
 
 /**
- * スマスキャン - メインページ
+ * Sma-Scan - メインページ
  * QRコードを読み取ってサーバーに送信する
  */
 export default function Home() {
