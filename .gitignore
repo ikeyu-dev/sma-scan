@@ -1,5 +1,12 @@
 # 依存関係
 node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 .venv/
 __pycache__/
 *.pyc
@@ -8,18 +15,21 @@ __pycache__/
 .next/
 out/
 dist/
+build/
+coverage/
+next-env.d.ts
 
 # 証明書（セキュリティのため除外）
 certs/
 
 # 環境変数
-.env
-.env.local
-.env.*.local
+.env*
+!.env.local.example
 
 # IDE
 .idea/
 .vscode/
+.vercel/
 *.swp
 *.swo
 
@@ -30,6 +40,9 @@ Thumbs.db
 # ログ
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
 # その他
 *.tsbuildinfo
